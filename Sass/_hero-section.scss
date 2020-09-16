@@ -1,0 +1,38 @@
+.hero {
+  background: #3b4050;
+  color: #fff;
+  &__title {
+    width: 100%;
+    padding-top: 4rem;
+    font-size: 3rem;
+  }
+  &__span {
+    color: #a59678;
+  }
+  &__txt {
+    width: 100%;
+    padding-top: 1.5em;
+    font-size: 1.2rem;
+    letter-spacing: 0.01em;
+    opacity: 0.8;
+  }
+  &__btn {
+    display: inline-block;
+    margin: 3em 0 5em 0;
+    padding: 0.4em 0.5em;
+    width: 175px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 900;
+    background: #a59678;
+    color: white;
+    border-radius: 35px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+    transition: 0.8s;
+  }
+  &__btn:hover {
+    opacity: 0.8;
+  }
+}

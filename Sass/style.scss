@@ -1,0 +1,43 @@
+@import "_nav";
+@import "_hamburger";
+@import "_hero-section";
+@import "_features-section";
+@import "_description-section";
+@import "_about-section";
+@import "_about-lgs"; /*larger screens*/
+@import "_footer";
+@import "_media";
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Oswald", sans-serif;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.header {
+  background: #2e323f;
+}
+.top {
+  position: fixed;
+  bottom: 1.5%;
+  right: 1.5%;
+  padding: 0.2em;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #a59678;
+  border-radius: 35px;
+  border: 1px solid #a59678;
+}

@@ -1,0 +1,60 @@
+.about-lgs {
+  margin-top: 2em;
+  background: #2e323f;
+  color: #fff;
+  &__main-title {
+    padding: 2em 0 1.5em 0;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+  }
+  &__title {
+    color: #a59678;
+    padding: 0.8em 0;
+  }
+  &__txt {
+    padding-bottom: 0.5em;
+  }
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.row .col {
+  padding-bottom: 3em;
+}
+.col .wide {
+  width: 400px;
+  padding-right: 1.5em;
+}
+.bottom-nav {
+  &__list {
+    list-style: none;
+    color: #a59678;
+  }
+  &__list-item {
+    padding-bottom: 0.5em;
+  }
+  &__link {
+    text-decoration: none;
+    color: #a59678;
+    transition: 0.8s;
+  }
+  &__link:hover {
+    opacity: 0.8;
+  }
+}
+.address {
+  padding-bottom: 3em;
+  &__txt {
+    font-style: normal;
+  }
+  &__link {
+    color: #a59678;
+  }
+}
+@media (max-width: 1000px) {
+  .about-lgs {
+    display: none;
+  }
+}
